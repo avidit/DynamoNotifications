@@ -1,0 +1,52 @@
+{
+  "notifications": [
+    {
+      "id": "1",
+      "title": "Dynamo Core 2.13 Release",
+      "link": "https://www.autodesk.com/",
+      "linkTitle": "View Release Note",
+      "longDescription": "",
+      "created": "2022-06-25T12:29:27.984Z",
+      "thumbnail": "https://getuikit.com/v2/docs/images/placeholder_600x400.svg",
+      "priority": "medium",
+      "type": "news",
+      "scope": "public"
+    },
+    {
+      "id": "2",
+      "title": "Dynamo has a new version available for download",
+      "link": "https://www.autodesk.com/",
+      "linkTitle": "Download Dynamo 2.13",
+      "longDescription": "",
+      "created": "2022-06-24T12:29:27.984Z",
+      "thumbnail": "https://getuikit.com/v2/docs/images/placeholder_600x400.svg",
+      "priority": "high",
+      "type": "news",
+      "scope": "public"
+    },
+    {
+      "id": "3",
+      "title": "Dynamo AU Meetup",
+      "link": "https://www.autodesk.com/",
+      "linkTitle": "Register Link",
+      "longDescription": "",
+      "created": "2022-06-19T12:29:27.984Z",
+      "thumbnail": "https://getuikit.com/v2/docs/images/placeholder_600x400.svg",
+      "priority": "low",
+      "type": "news",
+      "scope": "public"
+    },
+    {
+      "id": "4",
+      "title": "System.IO.FileLoadException",
+      "link": "https://www.autodesk.com/",
+      "linkTitle": "View Details",
+      "longDescription": "Dynamo has detected a conflict with a dependency and may be unstable. If any issues are detected, please unistall addins or packages and contact the provider.",
+      "created": "2022-05-01T12:29:27.984Z",
+      "thumbnail": "https://getuikit.com/v2/docs/images/placeholder_600x400.svg",
+      "priority": "urgent",
+      "type": "errorWarning",
+      "scope": "private"
+    }
+  ]
+}
