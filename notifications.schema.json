@@ -1,0 +1,137 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"$id": "https://avidit.github.io/DynamoNotifications/notifications.schema.json",
+	"title": "Root",
+	"type": "object",
+	"required": [
+		"notifications"
+	],
+	"properties": {
+		"notifications": {
+			"$id": "#root/notifications",
+			"title": "Notifications",
+			"type": "array",
+			"default": [],
+			"items":{
+				"$id": "#root/notifications/items",
+				"title": "Items",
+				"type": "object",
+				"required": [
+					"id",
+					"title",
+					"link",
+					"linkTitle",
+					"longDescription",
+					"created",
+					"thumbnail",
+					"priority",
+					"type",
+					"scope"
+				],
+				"properties": {
+					"id": {
+						"$id": "#root/notifications/items/id",
+						"title": "Id",
+						"type": "string",
+						"default": "",
+						"examples": [
+							"1"
+						],
+						"pattern": "^.*$"
+					},
+					"title": {
+						"$id": "#root/notifications/items/title",
+						"title": "Title",
+						"type": "string",
+						"default": "",
+						"examples": [
+							"Dynamo Core 2.13 Release"
+						],
+						"pattern": "^.*$"
+					},
+					"link": {
+						"$id": "#root/notifications/items/link",
+						"title": "Link",
+						"type": "string",
+						"default": "",
+						"examples": [
+							"https://www.autodesk.com/"
+						],
+						"pattern": "^.*$"
+					},
+					"linkTitle": {
+						"$id": "#root/notifications/items/linkTitle",
+						"title": "Linktitle",
+						"type": "string",
+						"default": "",
+						"examples": [
+							"View Release Note"
+						],
+						"pattern": "^.*$"
+					},
+					"longDescription": {
+						"$id": "#root/notifications/items/longDescription",
+						"title": "Longdescription",
+						"type": "string",
+						"default": "",
+						"examples": [
+							""
+						],
+						"pattern": "^.*$"
+					},
+					"created": {
+						"$id": "#root/notifications/items/created",
+						"title": "Created",
+						"type": "string",
+						"default": "",
+						"examples": [
+							"2022-06-25T12:29:27.984Z"
+						],
+						"pattern": "^.*$"
+					},
+					"thumbnail": {
+						"$id": "#root/notifications/items/thumbnail",
+						"title": "Thumbnail",
+						"type": "string",
+						"default": "",
+						"examples": [
+							"https://getuikit.com/v2/docs/images/placeholder_600x400.svg"
+						],
+						"pattern": "^.*$"
+					},
+					"priority": {
+						"$id": "#root/notifications/items/priority",
+						"title": "Priority",
+						"type": "string",
+						"default": "",
+						"examples": [
+							"medium"
+						],
+						"pattern": "^.*$"
+					},
+					"type": {
+						"$id": "#root/notifications/items/type",
+						"title": "Type",
+						"type": "string",
+						"default": "",
+						"examples": [
+							"news"
+						],
+						"pattern": "^.*$"
+					},
+					"scope": {
+						"$id": "#root/notifications/items/scope",
+						"title": "Scope",
+						"type": "string",
+						"default": "",
+						"examples": [
+							"public"
+						],
+						"pattern": "^.*$"
+					}
+				}
+			}
+
+		}
+	}
+}
